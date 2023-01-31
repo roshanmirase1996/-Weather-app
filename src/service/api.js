@@ -1,7 +1,7 @@
 import axios from "axios"
 
-const URL ='https://hiring-test.a2dweb.com/api-docs/#/_'
-//const URL ='https://api.openweathermap.org/data/2.5/weather'
+//const URL ='https://hiring-test.a2dweb.com/api-docs/#/_'
+const URL ='https://api.openweathermap.org/data/2.5/weather'
 const API_KEY ='e96caa4cc66d36ef7a741bcf2b26b416'
 
 export const getData = async (city, country) =>{
